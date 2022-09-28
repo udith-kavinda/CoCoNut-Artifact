@@ -1,0 +1,61 @@
+var items = []; 
+if ($type(selector) == 'string') items.extend(document.getElementsBySelector(selector)); else if ($type(selector) == 'element') items.push($(selector)); else if (selector.length){ $each(selector, function(sel){ items.push(sel); }); 
+}); items.each(function(item){ if ($(item)) elements.push(item); 
+var items = []; 
+if ($type(selector) == 'string') items.extend(document.getElementsBySelector(selector)); else if ($type(selector) == 'element') items.push($(selector)); else if (selector.length){ $each(selector, function(sel){ items.push(sel); }); 
+}); items.each(function(item){ if ($(item)) elements.push(item); 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+el._element_extended_ = true; Garbage.collect(el); el.extend = Object.extend; if (!(el instanceof HTMLElement)) el.extend(Element.prototype); 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+if (el._element_extended_) return el; if ([window, document].test(el)) return el; 
+if (['object', 'embed'].test(el.tagName.toLowerCase())) return el; if (!el.extend){ 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+for (i = 0; i < arguments.length; i++) { 
+if (arguments.length == 1) 
+if (el._element_extended_) return el; if ([window, document].test(el)) return el; 
+if (['object', 'embed'].test(el.tagName.toLowerCase())) return el; if (!el.extend){ 
+for (i = 0; i < arguments.length; i++) { 
+if (!['object', 'embed'].test(el.tagName.toLowerCase()) && !el.extend){ el._element_extended_ = true; Garbage.collect(el); el.extend = Object.extend; if (!(el instanceof HTMLElement)) el.extend(Element.prototype); } 
+el._element_extended_ = true; Garbage.collect(el); el.extend = Object.extend; if (!(el instanceof HTMLElement)) el.extend(Element.prototype); 
+if (!['object', 'embed'].test(el.tagName.toLowerCase()) && !el.extend){ el._element_extended_ = true; Garbage.collect(el); el.extend = Object.extend; if (!(el instanceof HTMLElement)) el.extend(Element.prototype); } 
+var elements = new Array();  
+var element = arguments[i]; 
+ if (arguments.length == 1) return element;  elements.push(element); 
+ return elements; 
+for (i = 0; i < arguments.length; i++) { 
+if(!update.style.position || update.style.position=='absolute') { update.style.position = 'absolute'; 
+} new Effect.Appear(update,{duration:0.3}); }; 
+if(element.document != undefined && element.document==null) return; Element.setStyle(element, {"background-color" : originalColor}); 
+if(!update.style.position || update.style.position=='absolute') { update.style.position = 'absolute'; 
+} new Effect.Appear(update,{duration:0.3}); }; 
+HTTPGet(db.uri +'/'+ searchString +'/'+ db.max, db.receive, db); 
+"OpenLayers/Control/LayerSwitcher.js", "OpenLayers/Control/LayerTabs.js" 
+if (!el || ((param[1] != '*') && ($Element(el, 'getTag') != param[1]))) return; 
+window.setTimeout(function() {self.pollForLoad(loadFunction, windowObject, originalLocation, originalHref);}, 500); 
+if (!el || ((param[1] != '*') && ($Element(el, 'getTag') != param[1]))) return; 
+this.drops = this.drops.reject(function(e) { return e==element }); 
+new Effect.Appear(update,{duration:0.15}); 
+if(!update.style.position || update.style.position=='absolute') { update.style.position = 'absolute'; 
+} new Effect.Appear(update,{duration:0.3}); }; 
+$('commentform').elements('comment[author]').value = getCookie('author'); $('commentform').elements('comment[url]').value = getCookie('url'); 
+if ($('commentform').elements('comment[url]').value != '' || $('commentform').elements('comment[email]').value != '') { 
+window.setTimeout(function() {self.pollForLoad(loadFunction, windowObject, originalDocument);}, 500); 
+if (element.document != undefined && element.document == null) { 
