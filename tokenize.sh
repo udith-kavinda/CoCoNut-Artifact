@@ -13,7 +13,7 @@ if [ "${start}" -lt 1 ]; then
     echo "End tokenization"
 fi
 
-export FAIRSEQPY=./fairseq-context_good/
+export FAIRSEQPY=/content/CoCoNut-Artifact/fairseq-context/
 
 # Prepare data
 if [ "${start}" -lt 2 ]; then

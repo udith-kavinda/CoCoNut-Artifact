@@ -128,11 +128,11 @@ def quixpy_context(saved_data_path):
     :param saved_data_path:
     :return:
     """
-    both_path = './data/test/quixpy/origin/remadd.txt'
-    rem_path = ''
-    add_path = ''
-    context_path = './data/test/quixpy/origin/context.txt'
-    meta_path = './data/test/quixpy/origin/meta.txt'
+    both_path = ''
+    rem_path = '/content/dataset/python/rem.txt'
+    add_path = '/content/dataset/python/add.txt'
+    context_path = '/content/dataset/python/context.txt'
+    meta_path = '/content/dataset/python/meta.txt'
     valid_size = 2000
     perfect_loc = True
     only_test = True

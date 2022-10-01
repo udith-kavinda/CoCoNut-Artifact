@@ -52,17 +52,17 @@ dic_dir=./intermediate_repo/java/2006/nocontext/train/bin
 
 
 
-dic_dir=./intermediate_repo/js/nocontext/train/bin
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_1/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_1/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_2/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_2/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_3/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_3/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_4/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_4/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_5/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_5/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_6/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_6/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_7/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_7/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_8/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_8/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_9/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_9/ -1 &
-bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_10/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_10/ -1
+# dic_dir=./intermediate_repo/js/nocontext/train/bin
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_1/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_1/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_2/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_2/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_3/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_3/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_4/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_4/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_5/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_5/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_6/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_6/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_7/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_7/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_8/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_8/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_9/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_9/ -1 &
+# bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/js/nocontext/trained/fconv_tuned_10/ checkpoint_best.pt ./intermediate_repo/js/results/bugaid_fconv_tuned_10/ -1
 
 
 ##dic_dir=./intermediate_repo/js/context/train/bin
@@ -92,6 +92,7 @@ bash test.sh nocontext bugaid ./data/test/bugaid/nocontext/ ${dic_dir}/dict.src.
 
 
 # dic_dir=./intermediate_repo/python/context/train/bin
+bash test.sh context quixpy /content/dataset/context/train /content/dataset/fairseq/context/train/bin/dict.src.txt /content/dataset/fairseq/context/train/bin/dict.trg.txt /content/CoCoNut-Artifact/wmt14.en-fr.fconv-py model.pt /content/CoCoNut-Artifact/data/ -1 &
 # bash test.sh context quixpy ./data/test/quixpy/context/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/python/context/trained/context_tuned_1/ checkpoint_best.pt ./intermediate_repo/python/results/quixpy_context_tuned_1/ -1 &
 # bash test.sh context quixpy ./data/test/quixpy/context/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/python/context/trained/context_tuned_2/ checkpoint_best.pt ./intermediate_repo/python/results/quixpy_context_tuned_2/ -1 &
 # bash test.sh context quixpy ./data/test/quixpy/context/ ${dic_dir}/dict.src.txt ${dic_dir}/dict.trg.txt ./intermediate_repo/python/context/trained/context_tuned_3/ checkpoint_best.pt ./intermediate_repo/python/results/quixpy_context_tuned_3/ -1 &
